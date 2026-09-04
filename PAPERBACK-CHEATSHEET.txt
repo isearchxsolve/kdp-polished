@@ -1,0 +1,83 @@
+=====================================================================
+PAPERBACK UPLOAD CHEAT-SHEET — BOOKS 01-07
+The Beholder Project | NILOY DAS | Ready 3 Sep 2026 (night)
+=====================================================================
+
+ALL FILES ARE PRINT-READY AND VERIFIED (margins OK, sizes exact,
+covers flattened 300dpi, barcode box reserved inside frame).
+
+FOR EACH BOOK — 3 THINGS TO UPLOAD
+---------------------------------------------------------------------
+Interior (manuscript, "PDF" option):
+  D:\empty\KDP-POLISHED\<name>.pdf            (listed below)
+Cover ("Upload a cover you already have"):
+  D:\empty\KDP-POLISHED\COVERS\<name>_WRAPAROUND.pdf
+Barcode checkbox: LEAVE UNCHECKED (KDP prints its own barcode
+  over the white box on the back cover - already reserved).
+
+PRINT SETTINGS (same for all):
+  Trim size:        6 x 9 in (15.24 x 22.86 cm)
+  Bleed:            No bleed (interiors have no bleed)
+  Paper:            White (black ink)
+  Page count:       see table
+
+=====================================================================
+BOOK / PAGES / US PRICE (60% royalty, $2.30 print cost <=108pp)
+---------------------------------------------------------------------
+01 Beyond Parameter Scaling              24 pp | $7.99  | PUBLISHED
+   interior: 01_Beyond_Parameter_Scaling_Vol_I.pdf
+   cover:    COVERS\01_Beyond_Parameter_Scaling_WRAPAROUND.pdf
+
+02 The Ground Beneath the Eagle          41 pp | $7.99
+   interior: 02_The_Ground_Beneath_the_Eagle_Vol_II.pdf
+   cover:    COVERS\02_The_Ground_Beneath_the_Eagle_WRAPAROUND.pdf
+   royalty:  (7.99*0.60)-2.30 = $2.49
+
+03 The Beholder                          44 pp | $7.99
+   interior: 03_The_Beholder_Between_Fullness_and_Emptiness_Vol_III.pdf
+   cover:    COVERS\03_The_Beholder_Between_Fullness_and_Emptiness_WRAPAROUND.pdf
+
+04 The Confession of the Ordinary        24 pp | $4.99  (funnel)
+   interior: 04_The_Confession_of_the_Ordinary_Companion_Memoir.pdf
+   cover:    COVERS\04_The_Confession_of_the_Ordinary_Companion_WRAPAROUND.pdf
+   royalty:  (4.99*0.60)-2.30 = $0.69
+
+05 The Confession of the Ordinary FULL   38 pp | $8.99  (flagship)
+   interior: 05_The_Confession_of_the_Ordinary_FULL_Memoir.pdf
+   cover:    COVERS\05_The_Confession_of_the_Ordinary_FULL_WRAPAROUND.pdf
+   royalty:  (8.99*0.60)-2.30 = $3.09
+
+06 The Confession of the Recorder        24 pp | $5.99
+   interior: 06_The_Confession_of_the_Recorder.pdf
+   cover:    COVERS\06_The_Confession_of_the_Recorder_WRAPAROUND.pdf
+   royalty:  (5.99*0.60)-2.30 = $1.29
+   NOTE: AI attribution already on title page; answer the AI
+   questions as for the eBook (AI-generated for 06).
+
+07 Time Travels                          24 pp | $4.99
+   interior: 07_Time_Travels_Confessions_Spoken_in_the_Room.pdf
+   cover:    COVERS\07_Time_Travels_WRAPAROUND.pdf
+
+08 Kolkata Diaries (Masterpiece of Ruin) 42 pp | $7.99  (NEW - standalone memoir)
+   interior: 08_Kolkata_Diaries_Masterpiece_of_Ruin.pdf
+   cover:    COVERS\08_Kolkata_Diaries_WRAPAROUND.pdf
+   royalty:  (7.99*0.60)-2.30 = $2.49
+   NOTE: verified 42pp margins OK, cover 12.345x9.25 EXACT, spine 0.0946in
+   eBook price suggestion: $4.99
+
+=====================================================================
+ORDER TO UPLOAD (recommended)
+---------------------------------------------------------------------
+Next session: 02 + 03 (completes the linked trilogy with 01)
+Then: 05 (flagship) + 04 (funnel)
+Then: 06 + 07
+
+IF KDP SHOWS SPINE/Cover ERROR for 02/03: their spines: 02=0.0923 03=0.0991 05=0.0856 06=0.0540 08=0.0946
+(fine, no spine text anywhere - all books < 79 pages).
+
+Margins/gutter: all interiors verified with mirrored gutter
+(0.75in spine side / 0.5in outside / 0.7 top / 0.75 bottom).
+If a new interior is ever rebuilt, use build_print_pdf.py
+(NOT the old build_pdf.py - it has the gutter bug).
+Cover rebuilds: COVERS\build_wraparound_all.py
+=====================================================================

@@ -1,0 +1,249 @@
+﻿@TITLE
+BEYOND PARAMETER SCALING
+A First-Principles Theory of Emergent Machine Intelligence
+NILOY DAS
+Volume I of The Beholder Project
+@ENDTITLE
+
+@COPY
+Copyright © 2026 Niloy Das
+All rights reserved.
+No part of this publication may be reproduced or transmitted in any form without prior written permission of the author.
+First Edition — August 2026
+A volume of The Beholder Project
+This work is presented as a conceptual manuscript.
+Independently published via Kindle Direct Publishing
+@ENDCOPY
+
+# How to Read This Book
+• Do not treat biological analogies as proofs. They are generators of hypotheses.
+• Do not treat current LLM capability as evidence of consciousness.
+• Do not treat multi-agent evolution as guaranteed AGI.
+• Do not treat parameter scaling as obsolete. It is one important axis in a larger proposed scaling space.
+• Do not treat the author's personal timeline as a substitute for literature.
+
+# Executive Convergence
+The strongest defensible conclusion from the full line of reasoning is not that parameter scaling is useless, nor that the Omega concept is already AGI. It is that machine intelligence is better treated as a multi-dimensional system in which model capacity is one variable among several interacting variables: knowledge, exploration, memory, perception, abstraction, inference-time computation, multi-agent interaction, evolutionary selection, analogy, hypothesis generation, and independent evaluation.
+
+Recent literature validates several components independently. LLMs exhibit analogical reasoning; open-ended environments produce generalizable behaviors; evolutionary LLM-agent systems discover and improve algorithms; automated evaluators separate generation from verification. What remains unestablished is whether combining these components around a sufficiently capable neural learner is enough to produce AGI.
+
+Two boundary conditions apply. First, the validated precursors (FunSearch, AlphaEvolve, multi-agent debate) all operate in domains with cheap, programmatic verification. This framework inherits that restriction until a general validator exists (see The Validator Bottleneck). Second, no claim in this volume is evidenced beyond the settings named. The framework is a research program, not a result.
+
+# The Core Propositions
+## P1 — Intelligence is not one-dimensional
+Status: Established.
+
+Parameter count, data and compute matter, but capability also depends on training, inference-time computation, tools, memory, environment and task structure. Scaling laws (Kaplan et al., 2020; Hoffmann et al., 2022) confirmed the power of parameter scaling while suggesting its limits. Inference-time computation (Snell et al., ICLR 2025) has emerged as a distinct scaling axis.
+
+## P2 — Exploration and validation should be separable
+Status: Supported (verifiable domains only).
+
+AlphaEvolve (DeepMind, 2025) separates LLM generation from automated evaluation. FunSearch (2024) used the same separation for mathematical discovery. Dung's argumentation framework (1995) and abstract dialectical frameworks (Brewka et al., 2013) provide formal structures for independent validation.
+
+## P3 — Analogy is a mechanism for novelty
+Status: Supported pending replication.
+
+Webb, Holyoak & Lu (Nature Human Behaviour, 2023) demonstrated emergent analogical reasoning in LLMs. Shen et al. (2026) reported 90–173% increases in solution diversity from explicit cross-domain analogy. LLMs show bias toward near analogies (arXiv:2608.03233), and strongest results come from human–LLM collaboration.
+
+## P4 — Contradiction can be retained as a productive constraint
+Status: Research hypothesis formally grounded.
+
+Grounded in: (1) paraconsistent logic (Priest, 1979), allowing contradictions without collapse; (2) AGMp belief revision (Ribeiro et al., 2013), extending AGM theory; (3) abstract dialectical frameworks (Brewka et al., 2013), modeling competing arguments. The five-step algorithm: preservation, structural analysis, synthesis search, validation, revision.
+
+## P5 — Population-level evolution can improve solutions
+Status: Established (verifiable domains).
+
+XLand (DeepMind, 2021), AlphaEvolve (2025), Chen et al. (2025, co-evolution), Hu et al. (2026, EvoMAS), CORAL (Qu et al., 2026, autonomous evolution). OpenEvolve (2025) provides a reproducible open-source implementation.
+
+## P6 — Horizontal and vertical scaling are distinct
+Status: Research hypothesis — untested.
+
+NeurIPS 2026 and ICLR 2026 workshops reflect growing field recognition. No study has yet held the base model fixed while independently varying abstraction depth and population size.
+
+## P7 — Perception and embodiment change intelligence
+Status: Decomposed hypothesis.
+
+• P7a: Multimodal input increases accessible information (established).
+• P7b: Sensorimotor interaction produces different representations (strongly supported).
+• P7c: Embodied feedback may be necessary for valuation (open).
+• P7d: Consciousness required for AGI (philosophical, excluded).
+
+## Remark — Governance as an architectural property
+Governance is an architectural property: a loop is auditable to the degree that knowledge states (Kₜ) are checkpointed, validator provenance is logged, and candidate lineage (Gₜ → Hₜ → rₜ) is reconstructible. The EU AI Act regulates capability externally; this is the internal analogue. One paragraph; no legal claims made.
+
+# Omega Formal Research Architecture
+Omega is a research architecture whose central loop is:
+
+Knowledge → Open-ended exploration → Candidate generation → Analogy / contradiction-preserving synthesis → Hypothesis → Independent validation → Persistent knowledge → Next cycle.
+
+Let Kₜ be the knowledge state, Eₜ the environment, Gₜ the candidate set, S the synthesis operator, V the validator:
+
+@CODE
+Generate(Kₜ, Eₜ) → Gₜ     S(Gₜ) → Hₜ     rₜ = V(Hₜ)
+
+Kₜ₊₁ = Kₜ ∪_AGMp Synth(Hₜ)    if rₜ ≥ θ
+
+Kₜ₊₁ = Kₜ ∪ {Hₜ : b}    if rₜ < θ    (preserved as designated-contradictory)
+@ENDCODE
+
+where AGMp satisfies the AGMp success and vacuity postulates (Ribeiro et al., 2013), and θ is the pre-registered validation threshold.
+
+## Formal Grounding for P4
+The system maintains Kₜ as a paraconsistent belief set under AGMp revision. Competing hypotheses are retained with designated truth value b. Structural analysis extracts the symmetric difference of assumptions. Synthesis search finds H′ subsuming both competitors under context restrictions. If validated, classical AGM revision replaces competitors with the synthesis; if not, the contradiction is preserved.
+
+# A Falsifiable Experimental Program
+Use the same base LLM and matched compute. Compare C0 (single agent) through C9 (open-ended environment + all mechanisms). Measure literature novelty, solution diversity, validity, reproducibility, transfer, compute efficiency, and rate of verified discoveries.
+
+@CODE
+C0   Single agent, no external memory
+C1   Single agent + retrieval
+C2   Single agent + persistent memory
+C3   Multiple agents + communication
+C4   Multiple agents + independent validation
+C5   Multiple agents + competition
+C6   Population + mutation/selection
+C7   Population + tool creation
+C8   Population + multimodal perception
+C9   Full ecology
+@ENDCODE
+
+Key control: compare a monolithic model against a smaller model in the full ecology under matched compute. The hypothesis: I(B) under the full ecology exceeds I(B) under the monolith.
+
+# The Measurement Protocol
+The C0–C9 comparison is only as good as its metrics. Three disciplines apply to every metric used.
+
+## M1 — Execution-grounded primary metrics
+Headline metrics are never model-judged. They are: (a) verified discovery rate — the number of solutions passing an independent, programmatic oracle (runtime, exactness, test-suite passage); (b) transfer — performance of discovered artifacts on held-out tasks from a different domain; (c) reproducibility — variance across 10 seeds per condition.
+
+## M2 — Frozen-reference diversity
+Solution diversity D(P) (Appendix A.4) is computed in an embedding space frozen before the experiment begins, from a model never used by any agent, validator, or generator. This prevents Goodhart convergence, in which the ecology learns to satisfy the metric. Secondary diversity measures use behavioral edit distance over outputs.
+
+## M3 — Human-audited novelty
+Literature novelty is scored by blinded human raters against a pre-registered novelty rubric, with inter-rater reliability (Krippendorff's alpha > 0.7) reported. LLM-judged novelty is permitted only as a tertiary, clearly-labeled signal.
+
+Pre-registration. Conditions, metrics, seeds, and thresholds are registered before any run. Deviations are reported as deviations.
+
+# The Validator Bottleneck
+Rᵥ is easy to write and hard to know: Rᵥ = P(validator correct | candidate).
+
+The precursor systems this framework builds on share one property: their domains verify themselves. FunSearch and AlphaEvolve evaluate candidate mathematics by executing it. Arithmetic is its own oracle.
+
+Most of intelligence is not like that. Social reasoning, long-horizon planning, and design operate where verification is slow, contested, or absent. In those domains Rᵥ is unknown and plausibly low — and every downstream mechanism (evolutionary selection, contradiction synthesis, knowledge validation) degrades in proportion to it, because all of them consume validator output.
+
+This is therefore stated as a boundary of the present framework: Omega, as formalized here, is a theory of discovery in verifiable domains. The generalization question — what replaces V(Hₜ) when the world is the only validator, with delayed and noisy feedback — is open, and is treated as such (Volume II scope). Nothing in the experimental program claims otherwise.
+
+# Refutation Conditions
+A program that cannot state what would refute it is not a program. The following are pre-committed:
+
+## R1 — Null synergy
+If Shapley attribution over condition subsets shows no mechanism pair with synergy Sₓᵧ > 0.05 across three domains, the ecology thesis fails for the tested core model class, and parameter scaling (or test-time compute) remains the dominant axis.
+
+## R2 — Ceiling persistence
+If the full ecology C9 improves over monolith C0 by less than 10% on verified discovery rate under matched compute, the framework does not justify its complexity overhead.
+
+## R3 — Proxy collapse
+If 30% of evolutionary gains in C6–C9 are judged by the independent oracle to be metric gaming rather than genuine solution improvement, the selection mechanism is unsound.
+
+## R4 — Validator dependence
+If removing the independent validator (C4 → C3) changes outcomes by less than measurement noise, the separation principle P2 fails and the framework reduces to ordinary multi-agent prompting.
+
+# Limits, Objections and Failure Modes
+• The biology analogy may be misleading.
+• More agents can create coordination overhead.
+• Evolution can optimize proxies and produce pathological strategies.
+• Validation can itself be wrong or gameable.
+• There may be hard limits in the fixed core model that ecology cannot overcome.
+• The metrics can be gamed, including by the evaluation layer. If generator, validator, and novelty metric share a backbone model, the ecology can score well by exploiting a shared blind spot. Mitigation: M1–M3 (execution-grounded, frozen-reference, human-audited).
+• The framework is silent outside verifiable domains. See The Validator Bottleneck. No claim is made about AGI in the general sense; the claim scope is discovery under programmatic oracles until V is generalized.
+
+The most important objection: perhaps the LLM core is already a highly specialized artifact whose limits cannot be overcome by surrounding it with more copies. The answer is the control experiment.
+
+# Let It Be Broken
+A useful scientific idea should not be protected from criticism. It should be exposed to it. Perhaps intelligence is mostly parameter scale. Perhaps the combination will produce a capability regime nobody currently understands. All of these possibilities remain open.
+
+The next step may not be another larger box. It may be a world. That is the invitation of this book: do not believe it. Build it. Measure it. Break it. Improve it.
+
+# Appendix A — Mathematical Core
+## A.1 Resource-normalized capability
+I(B): expected performance of a configuration under budget B = (compute, memory, time), measured as verified-discovery rate per wall-clock FLOP.
+
+## A.2 Scaling elasticity
+@CODE
+εₓ = ∂I / ∂(ln x)
+@ENDCODE
+Estimated empirically, never assumed.
+
+## A.3 Interaction synergy
+@CODE
+Sₓᵧ = I(x,y) − I(x,0) − I(0,y) + I(0,0)
+@ENDCODE
+Higher-order attribution: mechanism contributions are computed as Shapley values over the lattice of condition subsets (C0–C9), so that joint gains are never double-counted. Reported with bootstrap 95% CIs over 10 seeds.
+
+## A.4 Diversity
+@CODE
+D(P) = H(φ(P))
+@ENDCODE
+where φ is a frozen embedding map fixed before experimentation (M2). The model used for φ is excluded from all agent roles.
+
+## A.5 Validation reliability
+@CODE
+Rᵥ(c) = P(oracle correct | candidate c)
+@ENDCODE
+estimated against a labeled audit sample. Rᵥ is reported per domain. No result is interpreted in a domain where Rᵥ has not been estimated.
+
+## A.6 Open-endedness
+@CODE
+O = N × S × U
+@ENDCODE
+where N = novelty against a frozen reference distribution, S = sustained improvement over time (slope of verified-discovery rate, non-negative), U = unpredictability measured as cross-seed entropy of trajectories. All three terms must be non-zero for O > 0.
+
+## A.7 Knowledge update (revised)
+The knowledge state evolves under paraconsistent AGMp revision, not union:
+
+@CODE
+Kₜ₊₁ = Kₜ ∪_AGMp Synth(Hₜ)    if rₜ ≥ θ
+
+Kₜ₊₁ = Kₜ ∪ {Hₜ : b}    if rₜ < θ    (preserved as designated-contradictory)
+@ENDCODE
+
+where AGMp satisfies the AGMp success and vacuity postulates (Ribeiro et al., 2013), and θ is the pre-registered validation threshold. This replaces the earlier Kₜ ∪ Valid(Hₜ), which implied monotone accumulation inconsistent with P4.
+
+## A.8 Ecology boundary declaration
+For any experiment, the following are declared fixed and immutable: base model weights, context length, tokenizer, and pretrained inductive biases. Any capability gain is attributable only to the ecological mechanisms under variation. This declaration is part of every pre-registration and closes the "elaborate prompt" objection by construction.
+
+# Appendix B — Terminology and Claims Discipline
+• Emergence: system-level property from interactions. Does not imply consciousness.
+• Intelligence: adaptive competence across tasks. Deliberately operational.
+• Consciousness: subjective experience. No claim that current AI possesses it.
+• Evolution: iterative variation, selection, inheritance. Not mere repeated prompting.
+• Ecology: the interacting system of agents, tools, knowledge, memory, evaluators and tasks.
+
+# References
+Kaplan, J. et al. (2020). Scaling Laws for Neural Language Models. arXiv:2001.08361.
+Hoffmann, J. et al. (2022). Training Compute-Optimal Large Language Models. arXiv:2203.15556.
+Snell, C. et al. (2025). Scaling LLM Test-Time Compute Optimally. ICLR 2025 Oral.
+Webb, T., Holyoak, K. J. & Lu, H. (2023). Emergent analogical reasoning in LLMs. Nature Human Behaviour.
+Shen, X. et al. (2026). Unlocking LLM Creativity through Analogical Reasoning. arXiv:2605.11258.
+Google DeepMind (2021). Generally capable agents emerge from open-ended play (XLand).
+Google DeepMind (2025). AlphaEvolve: A Gemini-powered coding agent.
+Romera-Paredes et al. (2024). FunSearch. Nature.
+Du, Y. et al. (2024). Improving Factuality through Multiagent Debate. ICML 2024.
+Chen et al. (2025). Multi-Agent Evolve. arXiv:2510.23595.
+Hu et al. (2026). EvoMAS. arXiv:2602.06511.
+Qu et al. (2026). CORAL. arXiv:2604.01658.
+Dung, P. M. (1995). On the acceptability of arguments. AI Journal, 77(2).
+Brewka, G. et al. (2013). Abstract Dialectical Frameworks. IJCAI.
+Priest, G. (1979). The Logic of Paradox. Journal of Philosophical Logic, 8(1).
+Ribeiro, M. M. et al. (2013). AGM-like Paraconsistent Belief Change. Principia.
+Alchourrón, C. et al. (1985). On the logic of theory change. Journal of Symbolic Logic, 50(2).
+Embodied AI: From LLMs to World Models (2025). arXiv:2509.20021.
+EU AI Act (2024). European Union.
+Searle, J. (1980). Minds, Brains, and Programs.
+Chalmers, D. (1996). The Conscious Mind. Oxford.
+LeCun, Y., Bengio, Y. & Hinton, G. (2015). Deep learning. Nature, 521.
+
+# About the Author
+Niloy Das is a production software engineer and independent researcher whose work spans machine intelligence, AI-assisted filmmaking, and the philosophy of creation. He is the creator of the Beyond Parameter Scaling framework, the GODSHAND AI filmmaking toolkit, and The Beholder Project — a three-volume exploration of intelligence, creativity, and the sacred. He lives and works at the intersection of first-principles engineering and contemplative inquiry.
+
+@CENTER
+THE BEHOLDER PROJECT
