@@ -1,0 +1,25 @@
+BOOK 06 PRICE FIX — Confession of the Recorder — B0HHTGBZRX (eBook) / B0HHTMRRM6 (PB)
+Source: lane-reports/KDP-ENGINE.md Sec 2 + career/KDP-EARNINGS.md | Author display unchanged
+Files only — apply in KDP dashboard.
+
+DEFECT: live eBook 5.99 vs planned 2.99 (4,800 words ~40pp; 5.99 dead shelf). PB live 5.99 -> below ~$1.00/copy margin.
+FIX: eBook 5.99 to 2.99 (70% -> ~$1.93/sale). PB 5.99 to 7.99 (60% - print -> ~$1.90/copy, same as series peers).
+
+--- EBOOK: 5.99 to 2.99 ---
+1. kdp.amazon.com > Bookshelf > Confession of the Recorder — eBook B0HHTGBZRX > ... > Edit eBook Pricing
+2. Rights & Pricing > Select marketplaces: Amazon.com (US) > List Price: change 5.99 to 2.99
+3. Royalty plan: confirm 70% (requires 2.99-9.99 — 2.99 qualifies)
+4. Repeat for all marketplaces (or set US + KDP auto-adjust others; verify UK/IN/EU match band)
+5. Save / Publish (review up to 72h; do NOT do during P6 free window Oct 22-26)
+
+--- PAPERBACK: 5.99 to 7.99 ---
+1. kdp.amazon.com > Bookshelf > Confession of the Recorder — Paperback B0HHTMRRM6 > ... > Edit Paperback Pricing
+2. Rights & Pricing > Paperback > Amazon.com (US) > List Price: change 5.99 to 7.99
+3. Royalty: confirm 60% - print cost = ~$1.90/copy
+4. Expand distribution channels as-is; verify other marketplaces auto-adjust
+5. Save / Publish
+
+VERIFY:
+- Bookshelf shows eBook 2.99 / PB 7.99 after review
+- Pricing page shows 70% (eBook) / 60% (PB)
+- Do not edit price on same day a promo starts for this ASIN (P6: Oct 22-26)

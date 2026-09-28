@@ -1,0 +1,39 @@
+P1 COUNTDOWN CHECKLIST — Kolkata Diaries (B0HHS6M3R4) — Sep 15-21
+Source: lane-reports/KDP-ENGINE.md Sec 1 + career/KDP-EARNINGS.md levers | Pen name: NILOY DAS
+Files only — no dashboard changes made here. Execute in KDP dashboard.
+
+A. SELECT-ENROLLMENT CHECK PER TITLE (P0: Sep 12-14 — mandatory before P1)
+Path: kdp.amazon.com > Bookshelf > [title] > Promote and advertise > check "KDP Select" status
+If not enrolled: Bookshelf > title > "Enroll for Free" > confirm. 90-day auto-renewing cycle.
+If enrolled ~Sep 13, cycle renews ~Dec 12-13, 5 free days refresh there.
+Without enrollment, no Countdown / Free-Days exist.
+
+[ ] 08 Kolkata Diaries (standalone) — eBook B0HHS6M3R4 — $4.99 — Select enrolled? Y/N
+[ ] 01 Beyond Parameter Scaling — eBook B0GY4LS1DL — $5.99 — Select enrolled? Y/N
+[ ] 02 Ground Beneath the Eagle — eBook B0HHP8FH1R — $4.99 — Select enrolled? Y/N
+[ ] 03 The Beholder: Between Fullness and Emptiness — eBook B0HHQPZWGX — $5.99 — Select enrolled? Y/N
+[ ] 04 Confession of the Ordinary, Companion — eBook B0HHWRNYH5 — $0.99 — Select enrolled? Y/N
+[ ] 05 Confession of the Ordinary (flagship) — eBook B0H4RPLN3Q — $5.99 — Select enrolled? Y/N
+[ ] 06 Confession of the Recorder — eBook B0HHTGBZRX — $5.99 (fix to $2.99 per book06-price-fix.txt) — Select enrolled? Y/N
+[ ] 07 Time Travels — eBook B0HHTFP15J — $2.99 — Select enrolled? Y/N
+Also verify prices per Sec 2 fixes during P0.
+
+B. P1 COUNTDOWN CREATE CLICK-PATH — Kolkata Diaries ONLY
+Title: Kolkata Diaries — ASIN B0HHS6M3R4
+Dates: Sep 15 -> Sep 21 (7d, Tue->Mon, covers full weekend)
+Price: 4.99 to 0.99 (Countdown Deal)
+Dashboard path:
+1. kdp.amazon.com > Bookshelf > Kolkata Diaries (B0HHS6M3R4) > Promote and advertise
+2. Promotions > Countdown Deal > Create
+3. Select title: Kolkata Diaries — B0HHS6M3R4
+4. Set Start: Sep 15, End: Sep 21
+5. Set deal price: 0.99 (list remains 4.99)
+6. Submit / Schedule (can schedule up to ~90 days ahead — do in one sitting)
+7. Confirm on promo page: status Scheduled/Active, price 4.99 -> 0.99, dates Sep 15-21
+
+C. RULES (from ENGINE Sec 1)
+- no-edit-same-day rule: never edit a title's price on the same day its promo starts
+- after promo, spot-check price reverted on dashboard "Pricing" page (must show 4.99 again)
+- during promo do not republish a manuscript update (edits pause listing up to 72h)
+- only one promo runs at a time per title (KDP forbids overlap)
+- P1 is the only promo that can produce orders in next 7 days; requires P0 Select check above

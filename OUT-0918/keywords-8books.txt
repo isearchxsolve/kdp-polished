@@ -1,0 +1,129 @@
+KEYWORDS + CATEGORIES — ALL 8 BOOKS — PASTE-READY
+Source: lane-reports/KDP-ENGINE.md Sec 2 + KDP-FILL-GUIDE.txt + career/KDP-EARNINGS.md
+Pen name: NILOY DAS everywhere publish-facing
+Rules: 7 keyword slots per book (<=50 chars each), exactly 3 categories per book (fixed picker — search picker terms given).
+Removals applied: Heath Ledger x2 (Book 04 slot 4, Book 05 slot 3), Claude Anthropic x1 (Book 06 slot 4), title-word dupes (Book 08: Kolkata memoir, Durga Puja Kolkata — "Kolkata" already indexed, KDP says don't repeat title words).
+Dashboard path per book: Bookshelf > [ASIN] > ... > Edit eBook Details > Keywords (7 boxes, one per box) + Categories (Choose up to three categories > search + select) > Save
+
+=== GLOBAL APPEND TO EVERY EBOOK DESCRIPTION (Description field accepts basic HTML — paste at end, keep hook first ~150 chars above fold) ===
+<p><b>The Beholder Project — all 7 volumes + standalone Kolkata Diaries are live. Written by NILOY DAS. Also available in paperback.</b></p>
+=== KU LINE (append once Select enrollment confirmed on that title) ===
+<p><b>Available in Kindle Unlimited — read for free with your membership.</b></p>
+
+--- BOOK 01 — Beyond Parameter Scaling — eBook B0GY4LS1DL — $5.99 ---
+Categories (set 3):
+1. Computers & Technology > Artificial Intelligence & Semantics (picker-search "Artificial Intelligence")
+2. Politics & Social Sciences > Philosophy
+3. Computers & Technology > Programming > Agent & Bot Development (fallback picker-search: machine learning)
+Keywords (7 — paste one per box):
+1. artificial intelligence theory [KEEP]
+2. machine intelligence emergence first principles [REPLACES machine intelligence emergence]
+3. LLM scaling laws [KEEP]
+4. multi-agent systems [KEEP]
+5. AGI research program falsifiable theory [REPLACES philosophy of mind and AI]
+6. philosophy of mind artificial consciousness [REPLACES evolutionary computation]
+7. FunSearch AlphaEvolve evolutionary discovery [REPLACES artificial general intelligence research]
+
+--- BOOK 02 — The Ground Beneath the Eagle — eBook B0HHP8FH1R — $4.99 ---
+Categories (3):
+1. Computers & Technology > Artificial Intelligence & Semantics
+2. Biographies & Memoirs > Professionals & Academics
+3. Business & Money > Problem-Solving & Decision-Making (guide's "Business & Money > Industries > Computers & Technology" is old browse path — not in fixed picker)
+Keywords (7):
+1. AI engineering memoir [KEEP]
+2. AI agents automation [KEEP]
+3. software engineering essays [KEEP]
+4. LLM workflow design [KEEP]
+5. verification and validation [KEEP]
+6. ai project management failure postmortem [REPLACES technology true story]
+7. software engineering memoir true story [REPLACES machine intelligence practice]
+
+--- BOOK 03 — The Beholder: Between Fullness and Emptiness — eBook B0HHQPZWGX — $5.99 ---
+Categories (3):
+1. Biographies & Memoirs > Memoirs
+2. Religion & Spirituality (picker-search "Hinduism"; if absent use Religion & Spirituality > Eastern Religious Texts & Scriptu)
+3. Politics & Social Sciences > Philosophy
+Keywords (7):
+1. spiritual memoir India [KEEP]
+2. Krishna Shiva Christ mysticism comparative [REPLACES Krishna Shiva philosophy]
+3. comparative mysticism [KEEP]
+4. Bhagavad Gita reflections [KEEP]
+5. nonduality and devotion [KEEP]
+6. Ramanujan mathematics intuition [KEEP]
+7. Ramanujan goddess theorems mathematical intuition [REPLACES memoir of a beautiful mind — duplicative 04/05 brand phrase]
+
+--- BOOK 04 — Confession of the Ordinary, Companion — eBook B0HHWRNYH5 — $0.99 ---
+Categories (3):
+1. Biographies & Memoirs > Memoirs
+2. Health, Fitness & Dieting > Mental Health
+3. Literature & Fiction > Essays & Letters
+Keywords (7):
+1. mental health memoir [KEEP]
+2. living with schizophrenia [KEEP]
+3. mind and consciousness essays [KEEP]
+4. mental health recovery short read [REPLACES Heath Ledger tribute — REMOVED Heath Ledger x1 trademark-risk]
+5. insomnia and creativity [KEEP]
+6. schizophrenia memoir short book [REPLACES short memoir Kindle]
+7. philosophy of mind personal [KEEP]
+Note: verify live description contains funnel line "For the full ten-movement memoir, see Book 5" — absence costs money.
+
+--- BOOK 05 — Confession of the Ordinary (flagship) — eBook B0H4RPLN3Q — $5.99 ---
+Categories (3):
+1. Biographies & Memoirs > Memoirs
+2. Health, Fitness & Dieting > Mental Health
+3. Literature & Fiction > Autobiographies (picker-search "autobiography"; fallback Memoirs > Cultural & Ethnic)
+Keywords (7):
+1. mental health memoir [KEEP]
+2. schizophrenia and creativity [KEEP]
+3. insomnia loneliness creativity memoir [REPLACES insomnia is loneliness Heath Ledger — REMOVED Heath Ledger x2 trademark-risk]
+4. memoir of the mind [KEEP]
+5. confessional memoir poetic prose [REPLACES confessional memoir poetry prose]
+6. love and reverence memoir [KEEP]
+7. the truce with the mind [KEEP]
+Note: protect from free too early — scheduled LAST (P8 Nov 5-9).
+
+--- BOOK 06 — Confession of the Recorder — eBook B0HHTGBZRX — $2.99 after fix ---
+Categories (3 — fix wrong Computer Vision & Pattern Recognition):
+1. Computers & Technology > Artificial Intelligence & Semantics
+2. Politics & Social Sciences > Philosophy
+3. Literature & Fiction > Essays & Letters
+Keywords (7):
+1. AI consciousness essay [KEEP]
+2. artificial intelligence memoir [KEEP]
+3. human AI collaboration [KEEP]
+4. ai authored memoir machine witness [REPLACES Claude Anthropic book — REMOVED Claude Anthropic x1 trademark-risk; author display unchanged]
+5. witness literature [KEEP]
+6. philosophy of artificial minds [KEEP]
+7. AI ethics and inner life [KEEP]
+
+--- BOOK 07 — Time Travels — eBook B0HHTFP15J — $2.99 ---
+Categories (3):
+1. Religion & Spirituality (picker-search "Mysticism"; fallback Religious Studies)
+2. Literature & Fiction > Poetry
+3. Biographies & Memoirs > Memoirs
+Keywords (7 — all KEEP):
+1. spiritual confessions
+2. prayer memoir Christianity Hinduism
+3. devotion poems prose
+4. Nunc Dimittis
+5. Krishna bhakti reflections
+6. love letter to God
+7. contemporary spiritual writing
+
+--- BOOK 08 — Kolkata Diaries (standalone, P1 flagstone) — eBook B0HHS6M3R4 — $4.99 ---
+Categories (3 per standing decision kolkata_diaries_kdp_categories):
+1. Biographies & Memoirs > Memoirs (leave subcategory at "Select one")
+2. Self-Help > Relationships > Love & Loss
+3. Health, Fitness & Dieting > Mental Health (skip Travel > Asia > India)
+Keywords (7 NEW — all <=50 chars, no title/author duplicates, no artist names; Bob Seger/Air Supply/Roxette stay in blurb only):
+1. love loss memoir true story india [REPLACES Kolkata memoir — REMOVED title-word dupe]
+2. marriage and mental health recovery [REPLACES love and loss memoir India]
+3. fifteen years one city memoir [REPLACES expat life memories]
+4. grief second chance at love memoir [REPLACES marriage memoir true story]
+5. bengal culture monsoon trams adda [REPLACES mental health recovery memoir]
+6. songs carry a life memories nostalgia [REPLACES nostalgia songs memory]
+7. indian city memoir durga puja festival [REPLACES Durga Puja Kolkata — REMOVED title-word dupe]
+
+=== CROSS-SELL HTML BLOCK (paste-ready, append to every description) ===
+<p><b>The Beholder Project — all 7 volumes + standalone Kolkata Diaries are live. Written by NILOY DAS. Also available in paperback.</b></p>
+<p><b>Available in Kindle Unlimited — read for free with your membership.</b></p>
